@@ -1,10 +1,10 @@
 import React from "react";
-import { Flex, Image, Menu, Switch } from "antd";
+import { Flex, Image, Switch } from "antd";
 import logo from "../../assets/images/logo_new.png";
 import { Header } from "antd/es/layout/layout";
 
 
-const Home = () => {
+const HeaderPage = () => {
   const [theme, setTheme] = React.useState("dark");
   const changeTheme = (value) => {
     setTheme(value ? "dark" : "light");
@@ -31,4 +31,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HeaderPage;
