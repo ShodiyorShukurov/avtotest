@@ -1,41 +1,37 @@
 import { Link } from "react-router-dom";
 import { Layout, Button, Flex, Typography } from "antd";
-import HeaderPage from "../Header";
-import FooterPage from "../Footer";
 const { Content } = Layout;
 const { Title } = Typography;
 
 const MainPage = () => {
   return (
-    <Layout
-      style={{
-        background: "#fff",
-        width: "100%",
-      }}
-    >
-      <HeaderPage />
-      <Content>
-        <div className="container">
-          <Flex vertical justify="center" align="center">
-            <Title>Welcom to road signs exam </Title>
-            <Title level={3}>Select a test level </Title>
+    <Content style={{ background: "#131629", height: "100%", paddingBottom:"100px" }}>
+      <div className="container">
+        <Flex vertical justify="center" align="center">
+          <Title style={{ color: "#fff" }}>Welcom to road signs exam </Title>
+          <Title level={3} style={{ color: "#fff" }}>
+            Select a test level
+          </Title>
 
-            <Link to="/easy">
-              <Button type="primary" style={{ width: "400px" }}>
-                Easy: 8 min
-              </Button>
-            </Link>
-            <Button type="primary" style={{ width: "400px", margin: "20px" }}>
+          <Link to="/easy">
+            <Button type="primary" style={{  width: "400px" }}>
+              Easy: 8 min
+            </Button>
+          </Link>
+          <Link to="/medium" style={{ display: "block" }}>
+            <Button
+              type="primary"
+              style={{ width: "400px", margin: "20px" }}
+            >
               Medium: 5 min
             </Button>
-            <Button type="primary" style={{ width: "400px" }}>
-              Hard: 3 min
-            </Button>
-          </Flex>
-        </div>
-      </Content>
-      <FooterPage />
-    </Layout>
+          </Link>
+          <Button type="primary" style={{ width: "400px" }}>
+            Hard: 3 min
+          </Button>
+        </Flex>
+      </div>
+    </Content>
   );
 };
 

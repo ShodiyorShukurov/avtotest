@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Row, Typography, Button, Image, Flex } from "antd";
 import { Link, useNavigate } from "react-router-dom";
-import "./easy.scss";
+import "./medium.scss";
 import musicYouLost from "../../assets/you lost.ogg";
 import useQuestions from "../../Hooks/useQuestions";
 
-const EasyPage = () => {
+const MediumPage = () => {
   // let randomNumber = Math.floor(Math.random() * 100);
   const {
     option1Ref,
@@ -21,7 +21,7 @@ const EasyPage = () => {
   } = useQuestions();
 
   const audioYouLostRef = React.useRef(new Audio(musicYouLost));
-  const [seconds, setSeconds] = React.useState(8 * 60);
+  const [seconds, setSeconds] = React.useState(5 * 60);
   const navigate = useNavigate();
 
   React.useEffect(() => {
@@ -43,7 +43,7 @@ const EasyPage = () => {
   const remainingSeconds = seconds % 60;
 
   return (
-    <section className="easy-section">
+    <section className="medium-section">
       <div className="container">
         <Row>
           <Col span={6}>
@@ -164,4 +164,4 @@ const EasyPage = () => {
   );
 };
 
-export default EasyPage;
+export default MediumPage;

@@ -1,10 +1,10 @@
-import React from 'react'
+import './youwin.scss'
 
 const YouWin = () => {
   return (
-    <>
-      YouWin
-    </>
+    <section className='you-win__section'>
+      
+    </section>
   )
 }
 
