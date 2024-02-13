@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const useQuestions = () => {
   let randomNumber = Math.floor(Math.random() * 100);
   let [index, setIndex] = React.useState(
-    randomNumber > 80 ? randomNumber - 20 : randomNumber
+   0
   );
   let [count, setCount] = React.useState(1);
   let [question, setQuestion] = React.useState(roadSymbol[index]);

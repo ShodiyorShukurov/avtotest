@@ -5,7 +5,7 @@ export const roadSymbol = [
     option2: "Quvib o'tish taqiqlanadi",
     option3: "Yuqori tezlik",
     option4: "Asosiy yo'lining yo'nalishi",
-    symbol_img: "/src/assets/signs/yol_bering.gif",
+    symbol_img: "../assets/signs/yol_bering.gif",
     ans: 1,
   },
   {
