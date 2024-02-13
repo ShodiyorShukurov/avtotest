@@ -31,6 +31,8 @@ const EasyPage = () => {
           clearInterval(intervalId);
           navigate("/youlost");
           audioYouLostRef.current.play();
+          localStorage.setItem("score", score);
+          localStorage.setItem("false", falseQuestion);
         }
         return prevSeconds - 1;
       });
@@ -64,7 +66,7 @@ const EasyPage = () => {
               vertical
               justify="center"
               align="center"
-              style={{ paddingTop: "80px", paddingBottom: "37.5px"  }}
+              style={{ paddingTop: "80px", paddingBottom: "37.5px" }}
             >
               <Image
                 src={question.symbol_img}

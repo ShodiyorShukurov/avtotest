@@ -31,6 +31,8 @@ const MediumPage = () => {
           clearInterval(intervalId);
           navigate("/youlost");
           audioYouLostRef.current.play();
+          localStorage.setItem("score", score);
+          localStorage.setItem("false", falseQuestion);
         }
         return prevSeconds - 1;
       });

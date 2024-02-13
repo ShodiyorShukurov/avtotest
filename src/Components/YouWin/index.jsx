@@ -37,7 +37,7 @@ const YouWin = () => {
         }}
       >
         Noto&apos;g&apos;ri javoblar soni :{" "}
-        {localStorage.getItem("falseQuestion")}
+        {localStorage.getItem("false")}
       </Typography.Title>
       <Link to="/home">
         <Button ghost>Bosh sahifa</Button>
