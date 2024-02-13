@@ -5,7 +5,7 @@ export const roadSymbol = [
     option2: "Quvib o'tish taqiqlanadi",
     option3: "Yuqori tezlik",
     option4: "Asosiy yo'lining yo'nalishi",
-    symbol_img: "/src/Mock/signs/yol_bering.png",
+    symbol_img: "/public/signs/yol_bering.png",
     ans: 1,
   },
   {
@@ -14,7 +14,7 @@ export const roadSymbol = [
     option2: "Asosiy yolning oxiri",
     option3: "Turar-joy dahasi",
     option4: "Yo'l bering",
-    symbol_img: "/src/Mock/signs/aholi_punkti.gif",
+    symbol_img: "/public/signs/aholi_punkti.gif",
     ans: 3,
   },
   {
@@ -23,7 +23,7 @@ export const roadSymbol = [
     option2: "Turar-joy dahasi",
     option3: "Asosiy yo’lning yo’nalishi",
     option4: "Asosiy yolning oxiri",
-    symbol_img: "/src/Mock/signs/asosiy_tugash.gif",
+    symbol_img: "/public/signs/asosiy_tugash.gif",
     ans: 4,
   },
   {
@@ -32,7 +32,7 @@ export const roadSymbol = [
     option2: "Asosiy yo’lning yo’nalishi",
     option3: "Quvib o'tish taqiqlanadi",
     option4: "Asosiy yolning oxiri",
-    symbol_img: "/src/Mock/signs/asosiy_yol_sxemasi.gif",
+    symbol_img: "/public/signs/asosiy_yol_sxemasi.gif",
     ans: 2,
   },
   {
@@ -41,7 +41,7 @@ export const roadSymbol = [
     option2: "Asosiy yolning oxiri",
     option3: "Turar-joy dahasi",
     option4: "Asosiy yo’lning yo’nalishi",
-    symbol_img: "/src/Mock/signs/asosiy_yol.gif",
+    symbol_img: "/public/signs/asosiy_yol.gif",
     ans: 1,
   },
   {
@@ -50,7 +50,7 @@ export const roadSymbol = [
     option2: "Avtomagistral",
     option3: "Turar-joy dahasi",
     option4: "Asosiy yo’lning yo’nalishi",
-    symbol_img: "/src/Mock/signs/avtomagistral.gif",
+    symbol_img: "/public/signs/avtomagistral.gif",
     ans: 2,
   },
   {
@@ -59,7 +59,7 @@ export const roadSymbol = [
     option2: "Turar-joy dahasi",
     option3: "Avtomagistral oxiri",
     option4: "Avtomagistral",
-    symbol_img: "/src/Mock/signs/avtomagistral_tugashi.gif",
+    symbol_img: "/public/signs/avtomagistral_tugashi.gif",
     ans: 3,
   },
   {
@@ -68,7 +68,7 @@ export const roadSymbol = [
     option2: "Avtomagistral boshi",
     option3: "Turar-joy dahasi",
     option4: "Avtomagistral",
-    symbol_img: "/src/Mock/signs/velosiped_yolkasi.gif",
+    symbol_img: "/public/signs/velosiped_yolkasi.gif",
     ans: 1,
   },
   {
@@ -77,7 +77,7 @@ export const roadSymbol = [
     option2: "Texnik xizmat ko’rsatish joyi",
     option3: "Turar-joy dahasi",
     option4: "Transport vositalarini yuvish joyi",
-    symbol_img: "/src/Mock/signs/avtomoyka.gif",
+    symbol_img: "/public/signs/avtomoyka.gif",
     ans: 4,
   },
   {
@@ -86,7 +86,7 @@ export const roadSymbol = [
     option2: "Texnik xizmat ko’rsatish joyi",
     option3: "Turar-joy dahasi",
     option4: "Velosiped yolkasi",
-    symbol_img: "/src/Mock/signs/avtoservis.gif",
+    symbol_img: "/public/signs/avtoservis.gif",
     ans: 2,
   },
   {
@@ -95,7 +95,7 @@ export const roadSymbol = [
     option2: "Avtomagistral",
     option3: "Velosiped yolkasi",
     option4: "Aylanma harakatlanish",
-    symbol_img: "/src/Mock/signs/aylanma_yol.gif",
+    symbol_img: "/public/signs/aylanma_yol.gif",
     ans: 4,
   },
   {
@@ -105,7 +105,7 @@ export const roadSymbol = [
     option2: "Transport vositalarini yuvish joyi",
     option3: "Aylanma harakatlanish",
     option4: "Avtomagistral",
-    symbol_img: "/src/Mock/signs/belgilangan_yonalishli_transport_yolak.gif",
+    symbol_img: "/public/signs/belgilangan_yonalishli_transport_yolak.gif",
     ans: 1,
   },
   {
@@ -114,7 +114,7 @@ export const roadSymbol = [
     option2: "Aylanma harakatlanish",
     option3: "Yonilg’i shaxobchasi",
     option4: "Bir izli temir yo’l",
-    symbol_img: "/src/Mock/signs/benzin.gif",
+    symbol_img: "/public/signs/benzin.gif",
     ans: 3,
   },
   {
@@ -123,7 +123,7 @@ export const roadSymbol = [
     option2: "Avtomagistral",
     option3: "Aylanma harakatlanish",
     option4: "Bir izli temir yo’l",
-    symbol_img: "/src/Mock/signs/bir_izli_temir.gif",
+    symbol_img: "/public/signs/bir_izli_temir.gif",
     ans: 4,
   },
   {
@@ -132,7 +132,7 @@ export const roadSymbol = [
     option2: "Bolalar",
     option3: "Aylanma harakatlanish",
     option4: "Bir izli temir yo’l",
-    symbol_img: "/src/Mock/signs/bolalar.gif",
+    symbol_img: "/public/signs/bolalar.gif",
     ans: 2,
   },
   {
@@ -141,7 +141,7 @@ export const roadSymbol = [
     option2: "Aylanma harakatlanish",
     option3: "Oxiri berk yo’l, ko’cha",
     option4: "Boshqa xavf-xatar",
-    symbol_img: "/src/Mock/signs/boshi_berk_kocha.gif",
+    symbol_img: "/public/signs/boshi_berk_kocha.gif",
     ans: 3,
   },
   {
@@ -151,7 +151,7 @@ export const roadSymbol = [
     option3: "Yonilg’i shaxobchasi",
     option4:
       "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
-    symbol_img: "/src/Mock/signs/boshqa_xavf.gif",
+    symbol_img: "/public/signs/boshqa_xavf.gif",
     ans: 1,
   },
   {
@@ -161,7 +161,7 @@ export const roadSymbol = [
     option3: "Yonilg’i shaxobchasi",
     option4:
       "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
-    symbol_img: "/src/Mock/signs/burilish_taqiqlanadi.gif",
+    symbol_img: "/public/signs/burilish_taqiqlanadi.gif",
     ans: 2,
   },
   {
@@ -171,7 +171,7 @@ export const roadSymbol = [
     option3:
       "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
     option4: "Eng kam tezlik belgilangan yo’lning oxiri",
-    symbol_img: "/src/Mock/signs/eng_kam_tezlik_oxiri.gif",
+    symbol_img: "/public/signs/eng_kam_tezlik_oxiri.gif",
     ans: 4,
   },
   {
@@ -180,7 +180,7 @@ export const roadSymbol = [
     option2: "Yonilg’i shaxobchasi",
     option3: "Avtomobillarni ko’rikdan o’tkazish joyi",
     option4: "Texnik xizmat",
-    symbol_img: "/src/Mock/signs/estakada.gif",
+    symbol_img: "/public/signs/estakada.gif",
     ans: 3,
   },
   {
@@ -190,7 +190,7 @@ export const roadSymbol = [
     option3: "Harakatlanish taqiqlangan",
     option4:
       "Belgilangan yo’nalishli transport vositalari uchun mo’ljallangan bo’lak",
-    symbol_img: "/src/Mock/signs/faqat_odamlaga.gif",
+    symbol_img: "/public/signs/faqat_odamlaga.gif",
     ans: 3,
   },
   {
@@ -199,7 +199,7 @@ export const roadSymbol = [
     option2: "Harakatlanish orqaga",
     option3: "Harakatlanish to'g'riga",
     option4: "Harakatlanish o'ngga",
-    symbol_img: "/src/Mock/signs/harakatlanish_chapga.gif",
+    symbol_img: "/public/signs/harakatlanish_chapga.gif",
     ans: 1,
   },
   {
@@ -208,7 +208,7 @@ export const roadSymbol = [
     option2: "Harakatlanish chapga",
     option3: "Harakatlanish to'g'riga",
     option4: "Harakatlanish o'nga",
-    symbol_img: "/src/Mock/signs/harakatlanish_onga.gif",
+    symbol_img: "/public/signs/harakatlanish_onga.gif",
     ans: 4,
   },
   {
@@ -217,7 +217,7 @@ export const roadSymbol = [
     option2: "Harakatlanish o'nga yoki tog'riga",
     option3: "Harakatlanish chapga",
     option4: "Harakatlanish to'g'riga",
-    symbol_img: "/src/Mock/signs/harakatlanish_onga_togriga.gif",
+    symbol_img: "/public/signs/harakatlanish_onga_togriga.gif",
     ans: 2,
   },
   {
@@ -226,7 +226,7 @@ export const roadSymbol = [
     option2: "Harakatlanish tasviri",
     option3: "Harakatlanish chapga",
     option4: "Harakatlanish to'g'riga",
-    symbol_img: "/src/Mock/signs/harakatlanish_tasviri.gif",
+    symbol_img: "/public/signs/harakatlanish_tasviri.gif",
     ans: 2,
   },
   {
@@ -235,7 +235,7 @@ export const roadSymbol = [
     option2: "Harakatlanish orqaga",
     option3: "Harakatlanish chapga",
     option4: "Harakatlanish o'nga",
-    symbol_img: "/src/Mock/signs/harakatlanish_togriga.gif",
+    symbol_img: "/public/signs/harakatlanish_togriga.gif",
     ans: 1,
   },
   {
@@ -244,7 +244,7 @@ export const roadSymbol = [
     option2: "Dam olish joyi",
     option3: "Ichimlik suvi",
     option4: "Harakatlanish o'nga",
-    symbol_img: "/src/Mock/signs/ichimlik_suvi.gif",
+    symbol_img: "/public/signs/ichimlik_suvi.gif",
     ans: 3,
   },
   {
@@ -253,7 +253,7 @@ export const roadSymbol = [
     option2: "Ikki tomonlama harakatlanish",
     option3: "Dam olish joyi",
     option4: "Harakatlanish o'nga",
-    symbol_img: "/src/Mock/signs/ikki_tomonlama_xarakatlanish.gif",
+    symbol_img: "/public/signs/ikki_tomonlama_xarakatlanish.gif",
     ans: 2,
   },
   {
@@ -262,7 +262,7 @@ export const roadSymbol = [
     option2: "Kasalxona",
     option3: "Ichimlik suvi",
     option4: "Dam olish joyi",
-    symbol_img: "/src/Mock/signs/kemping.gif",
+    symbol_img: "/public/signs/kemping.gif",
     ans: 4,
   },
   {
@@ -271,7 +271,7 @@ export const roadSymbol = [
     option2: "Chapga harakatlanish taqiqlangan",
     option3: "Dam olish joyi",
     option4: "To'xtash taqiqlangan",
-    symbol_img: "/src/Mock/signs/kirish_taqiqlanadi.gif",
+    symbol_img: "/public/signs/kirish_taqiqlanadi.gif",
     ans: 1,
   },
   {
@@ -280,7 +280,7 @@ export const roadSymbol = [
     option2: "Kirish taqiqlangan",
     option3: "Ichimlik suvi",
     option4: "Shifoxona",
-    symbol_img: "/src/Mock/signs/kasalxona.gif",
+    symbol_img: "/public/signs/kasalxona.gif",
     ans: 4,
   },
   {
@@ -289,7 +289,7 @@ export const roadSymbol = [
     option2: "Kotarma koprik",
     option3: "Kirish taqiqlangan",
     option4: "Ichimlik suvi",
-    symbol_img: "/src/Mock/signs/kotarma_koprik.gif",
+    symbol_img: "/public/signs/kotarma_koprik.gif",
     ans: 2,
   },
   {
@@ -298,7 +298,7 @@ export const roadSymbol = [
     option2: "Vazn cheklangan",
     option3: "Cheklangan balandlik",
     option4: "Cheklangan kenglik",
-    symbol_img: "/src/Mock/signs/maksimal_balandlik.gif",
+    symbol_img: "/public/signs/maksimal_balandlik.gif",
     ans: 3,
   },
   {
@@ -307,7 +307,7 @@ export const roadSymbol = [
     option2: "Cheklangan balandlik",
     option3: "Vazn cheklangan",
     option4: "Cheklangan uzunlik",
-    symbol_img: "/src/Mock/signs/maksimal_kenglik.gif",
+    symbol_img: "/public/signs/maksimal_kenglik.gif",
     ans: 1,
   },
   {
@@ -316,7 +316,7 @@ export const roadSymbol = [
     option2: "Vazn cheklangan",
     option3: "Cheklangan kenglik",
     option4: "Cheklangan balandlik",
-    symbol_img: "/src/Mock/signs/maksimal_ogrlik.gif",
+    symbol_img: "/public/signs/maksimal_ogrlik.gif",
     ans: 2,
   },
   {
@@ -325,7 +325,7 @@ export const roadSymbol = [
     option2: "Cheklangan kenglik",
     option3: "Cheklangan uzunlik",
     option4: "Cheklangan balandlik",
-    symbol_img: "/src/Mock/signs/maksimal_uzunlik.gif",
+    symbol_img: "/public/signs/maksimal_uzunlik.gif",
     ans: 3,
   },
 
@@ -335,7 +335,7 @@ export const roadSymbol = [
     option2: "Cheklangan kenglik",
     option3: "Avtomobillar to'xtash joyi",
     option4: "Avtobus va trolleybus to’xtash joyi",
-    symbol_img: "/src/Mock/signs/marshrut.gif",
+    symbol_img: "/public/signs/marshrut.gif",
     ans: 4,
   },
   {
@@ -344,7 +344,7 @@ export const roadSymbol = [
     option2: "Cheklangan kenglik",
     option3: "Mexanik transport vositalarining harakatlanishi taqiqlangan",
     option4: "Avtomobillar to'xtash joyi",
-    symbol_img: "/src/Mock/signs/mexanik_taqiqlangan.gif",
+    symbol_img: "/public/signs/mexanik_taqiqlangan.gif",
     ans: 3,
   },
   {
@@ -353,7 +353,7 @@ export const roadSymbol = [
     option2: "Avtobus va trolleybus to’xtash joyi",
     option3: "Mexanik transport vositalarining harakatlanishi taqiqlangan",
     option4: "Avtomobillar to'xtash joyi",
-    symbol_img: "/src/Mock/signs/motosikl_taqiqlanadi.gif",
+    symbol_img: "/public/signs/motosikl_taqiqlanadi.gif",
     ans: 1,
   },
   {
@@ -362,7 +362,7 @@ export const roadSymbol = [
     option2: "Vazn cheklangan",
     option3: "Cheklangan balandlik",
     option4: "Eng kam oraliq",
-    symbol_img: "/src/Mock/signs/oraliq_masofa.gif",
+    symbol_img: "/public/signs/oraliq_masofa.gif",
     ans: 4,
   },
   {
@@ -371,7 +371,7 @@ export const roadSymbol = [
     option2: "Oshxona",
     option3: "Kirish taqiqlangan",
     option4: "Ichimlik suvi",
-    symbol_img: "/src/Mock/signs/oshxona.gif",
+    symbol_img: "/public/signs/oshxona.gif",
     ans: 2,
   },
   {
@@ -380,7 +380,7 @@ export const roadSymbol = [
     option2: "Avtobus va trolleybus to’xtash joyi",
     option3: "Mexanik transport vositalarining harakatlanishi taqiqlangan",
     option4: "Mototsikllar harakatlanishi taqiqlangan",
-    symbol_img: "/src/Mock/signs/ot_arava_taqiqlanadi.gif",
+    symbol_img: "/public/signs/ot_arava_taqiqlanadi.gif",
     ans: 1,
   },
   {
@@ -389,7 +389,7 @@ export const roadSymbol = [
     option2: "Mexanik transport vositalarining harakatlanishi taqiqlangan",
     option3: "Mototsikllar harakatlanishi taqiqlangan",
     option4: "To’xtab turish joyi",
-    symbol_img: "/src/Mock/signs/parkovka.gif",
+    symbol_img: "/public/signs/parkovka.gif",
     ans: 4,
   },
   {
@@ -398,7 +398,7 @@ export const roadSymbol = [
     option2: "Cheklangan kenglik",
     option3: "Cheklangan balandlik",
     option4: "Pastlab uchuvchi samolyotlar",
-    symbol_img: "/src/Mock/signs/pastlab_uchuvchi_samolyot.gif",
+    symbol_img: "/public/signs/pastlab_uchuvchi_samolyot.gif",
     ans: 4,
   },
   {
@@ -407,7 +407,7 @@ export const roadSymbol = [
     option2: "Piyodalar o’tish joyi",
     option3: "Cheklangan kenglik",
     option4: "Mototsikllar harakatlanishi taqiqlangan",
-    symbol_img: "/src/Mock/signs/piyodalar_otish_joyi.gif",
+    symbol_img: "/public/signs/piyodalar_otish_joyi.gif",
     ans: 2,
   },
   {
@@ -416,7 +416,7 @@ export const roadSymbol = [
     option2: "Piyodalar o’tish taqiqlanadi",
     option3: "Oshxona",
     option4: "Pastlab uchuvchi samolyotlar",
-    symbol_img: "/src/Mock/signs/piyodalar_yolagi.gif",
+    symbol_img: "/public/signs/piyodalar_yolagi.gif",
     ans: 1,
   },
   {
@@ -425,7 +425,7 @@ export const roadSymbol = [
     option2: "Qayrilish ta'qiqlanadi",
     option3: "Shlagbaumsiz temir yo’l kesishmasi",
     option4: "Pastlab uchuvchi samolyotlar",
-    symbol_img: "/src/Mock/signs/poyezd.gif",
+    symbol_img: "/public/signs/poyezd.gif",
     ans: 3,
   },
   {
@@ -434,7 +434,7 @@ export const roadSymbol = [
     option2: "Qayrilish ta'qiqlanadi",
     option3: "Shlagbaumsiz temir yo’l kesishmasi",
     option4: "Pastlab uchuvchi samolyotlar",
-    symbol_img: "/src/Mock/signs/qayrilish_taqiqlanadi.gif",
+    symbol_img: "/public/signs/qayrilish_taqiqlanadi.gif",
     ans: 2,
   },
   {
@@ -444,7 +444,7 @@ export const roadSymbol = [
     option3: "Pastlab uchuvchi samolyotlar",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/qayta_tizilish_sxemasi.gif",
+    symbol_img: "/public/signs/qayta_tizilish_sxemasi.gif",
     ans: 4,
   },
   {
@@ -454,7 +454,7 @@ export const roadSymbol = [
     option3: "Quvib o’tish taqiqlanadi",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/quvib_otish_taqiqlanadi.gif",
+    symbol_img: "/public/signs/quvib_otish_taqiqlanadi.gif",
     ans: 3,
   },
   {
@@ -464,7 +464,7 @@ export const roadSymbol = [
     option3: "Quvib o’tish taqiqlanadi",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/quvib_otish_taqiqlanadi_tugadi.gif",
+    symbol_img: "/public/signs/quvib_otish_taqiqlanadi_tugadi.gif",
     ans: 1,
   },
   {
@@ -474,7 +474,7 @@ export const roadSymbol = [
     option3: "Radar",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/radar.jpg",
+    symbol_img: "/public/signs/radar.jpg",
     ans: 3,
   },
   {
@@ -483,7 +483,7 @@ export const roadSymbol = [
     option2: "Quvib o’tish taqiqlanadi",
     option3: "Radar",
     option4: "Ro’paradagi harakatlanishga nisbatan imtiyoz",
-    symbol_img: "/src/Mock/signs/ropara_imtiyo.gif",
+    symbol_img: "/public/signs/ropara_imtiyo.gif",
     ans: 4,
   },
   {
@@ -492,7 +492,7 @@ export const roadSymbol = [
     option2: "Qayrilish ta'qiqlanadi",
     option3: "Quvib o’tish taqiqlanadi",
     option4: "Ro’paradagi harakatlanishga nisbatan imtiyoz",
-    symbol_img: "/src/Mock/signs/ropara_ustunlik.gif",
+    symbol_img: "/public/signs/ropara_ustunlik.gif",
     ans: 1,
   },
   {
@@ -502,7 +502,7 @@ export const roadSymbol = [
     option3: "Shlagbaumsiz temir yo’l kesishmasi",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/shlakbaumli_temiryol.gif",
+    symbol_img: "/public/signs/shlakbaumli_temiryol.gif",
     ans: 2,
   },
   {
@@ -511,7 +511,7 @@ export const roadSymbol = [
     option2: "Quvib o’tish taqiqlanadi",
     option3: "Ro’paradagi harakatlanishga nisbatan imtiyoz",
     option4: "Sirpanchiq yo’l",
-    symbol_img: "/src/Mock/signs/sirpanchiq_yol.gif",
+    symbol_img: "/public/signs/sirpanchiq_yol.gif",
     ans: 4,
   },
   {
@@ -521,7 +521,7 @@ export const roadSymbol = [
     option3: "Sohilga chiqish",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/soxilga_chiqish.gif",
+    symbol_img: "/public/signs/soxilga_chiqish.gif",
     ans: 3,
   },
   {
@@ -531,7 +531,7 @@ export const roadSymbol = [
     option3: "Sohilga chiqish",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/stop.gif",
+    symbol_img: "/public/signs/stop.gif",
     ans: 2,
   },
   {
@@ -541,7 +541,7 @@ export const roadSymbol = [
     option3: "Sohilga chiqish",
     option4:
       "Boshqa qatnov qismiga qayta tizilishning boshlang’ich ko’rsatkichi",
-    symbol_img: "/src/Mock/signs/svetofor.gif",
+    symbol_img: "/public/signs/svetofor.gif",
     ans: 1,
   },
   {
@@ -550,7 +550,7 @@ export const roadSymbol = [
     option2: "Sohilga chiqish",
     option3: "To’xtamasdan harakatlanish taqiqlangan",
     option4: "Ta’mirlash ishlari",
-    symbol_img: "/src/Mock/signs/tamirlash_ishlari.gif",
+    symbol_img: "/public/signs/tamirlash_ishlari.gif",
     ans: 4,
   },
   {
@@ -559,7 +559,7 @@ export const roadSymbol = [
     option2: "Svetofor tartibga soladi",
     option3: "Sohilga chiqish",
     option4: "To’xtamasdan harakatlanish taqiqlangan",
-    symbol_img: "/src/Mock/signs/tasir_doirasi.gif",
+    symbol_img: "/public/signs/tasir_doirasi.gif",
     ans: 1,
   },
   {
@@ -568,7 +568,7 @@ export const roadSymbol = [
     option2: "Sohilga chiqish",
     option3: "Taksi to’xtab turish joyi",
     option4: "To’xtamasdan harakatlanish taqiqlangan",
-    symbol_img: "/src/Mock/signs/taxi.gif",
+    symbol_img: "/public/signs/taxi.gif",
     ans: 3,
   },
   {
@@ -577,7 +577,7 @@ export const roadSymbol = [
     option2: "Sohilga chiqish",
     option3: "Telefon",
     option4: "To’xtamasdan harakatlanish taqiqlangan",
-    symbol_img: "/src/Mock/signs/telefon.gif",
+    symbol_img: "/public/signs/telefon.gif",
     ans: 3,
   },
   {
@@ -586,7 +586,7 @@ export const roadSymbol = [
     option2: "Temir yo’l kesishmasining yaqinligi haqida ogohlantirish",
     option3: "Sohilga chiqish",
     option4: "To’xtamasdan harakatlanish taqiqlangan",
-    symbol_img: "/src/Mock/signs/temiryol_kesishmasining_yaqinligi.gif",
+    symbol_img: "/public/signs/temiryol_kesishmasining_yaqinligi.gif",
     ans: 2,
   },
   {
@@ -595,7 +595,7 @@ export const roadSymbol = [
     option2: "Telefon",
     option3: "To’xtamasdan harakatlanish taqiqlangan",
     option4: "Yuqori tezlik cheklangan",
-    symbol_img: "/src/Mock/signs/tezlik-cheklangan.gif",
+    symbol_img: "/public/signs/tezlik-cheklangan.gif",
     ans: 4,
   },
   {
@@ -604,7 +604,7 @@ export const roadSymbol = [
     option2: "Vazn cheklangan",
     option3: "Tik balandlik",
     option4: "Cheklangan balandlik",
-    symbol_img: "/src/Mock/signs/tik_nishablik.gif",
+    symbol_img: "/public/signs/tik_nishablik.gif",
     ans: 1,
   },
   {
@@ -613,7 +613,7 @@ export const roadSymbol = [
     option2: "Tik nishablik",
     option3: "Tik balandlik",
     option4: "Cheklangan balandlik",
-    symbol_img: "/src/Mock/signs/tik_qiyalik.gif",
+    symbol_img: "/public/signs/tik_qiyalik.gif",
     ans: 3,
   },
   {
@@ -622,7 +622,7 @@ export const roadSymbol = [
     option2: "Cheklangan balandlik",
     option3: "To’xtamasdan harakatlanish taqiqlangan",
     option4: "Tirkama bilan harakatlanish taqiqlangan",
-    symbol_img: "/src/Mock/signs/tirkama_taqiq.gif",
+    symbol_img: "/public/signs/tirkama_taqiq.gif",
     ans: 4,
   },
   {
@@ -631,7 +631,7 @@ export const roadSymbol = [
     option2: "Xojatxona",
     option3: "Telefon",
     option4: "Oshxona",
-    symbol_img: "/src/Mock/signs/toilet.gif",
+    symbol_img: "/public/signs/toilet.gif",
     ans: 2,
   },
   {
@@ -640,7 +640,7 @@ export const roadSymbol = [
     option2: "Mehmonxona",
     option3: "Telefon",
     option4: "Xojatxona",
-    symbol_img: "/src/Mock/signs/tonnel.gif",
+    symbol_img: "/public/signs/tonnel.gif",
     ans: 1,
   },
   {
@@ -649,7 +649,7 @@ export const roadSymbol = [
     option2: "Tonnel",
     option3: "Tosh otilishi",
     option4: "Toshlar tushishi",
-    symbol_img: "/src/Mock/signs/tosh_otilishi.gif",
+    symbol_img: "/public/signs/tosh_otilishi.gif",
     ans: 3,
   },
   {
@@ -658,7 +658,7 @@ export const roadSymbol = [
     option2: "Toshlar tushishi",
     option3: "Tonnel",
     option4: "To’siqni o’ngdan yoki chapdan chetlab o’tish",
-    symbol_img: "/src/Mock/signs/tosh_tushishi.gif",
+    symbol_img: "/public/signs/tosh_tushishi.gif",
     ans: 2,
   },
   {
@@ -667,7 +667,7 @@ export const roadSymbol = [
     option2: "To’siqni o’ngdan yoki chapdan chetlab o’tish",
     option3: "Tonnel",
     option4: "Toshlar tushishi",
-    symbol_img: "/src/Mock/signs/tosiq_chap_ili_ong.gif",
+    symbol_img: "/public/signs/tosiq_chap_ili_ong.gif",
     ans: 2,
   },
   {
@@ -676,7 +676,7 @@ export const roadSymbol = [
     option2: "Tonnel",
     option3: "Toshlar tushishi",
     option4: "To’siqni chapdan chetlab o’tish",
-    symbol_img: "/src/Mock/signs/tosiq_chapdan.gif",
+    symbol_img: "/public/signs/tosiq_chapdan.gif",
     ans: 4,
   },
   {
@@ -685,7 +685,7 @@ export const roadSymbol = [
     option2: "To’siqni chapdan chetlab o’tish",
     option3: "Toshlar tushishi",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/tosiq_ongdan.gif",
+    symbol_img: "/public/signs/tosiq_ongdan.gif",
     ans: 4,
   },
   {
@@ -694,7 +694,7 @@ export const roadSymbol = [
     option2: "To’siqni chapdan chetlab o’tish",
     option3: "Tovush moslamalaridan foydalanish ta'qiqlangan",
     option4: "Toshlar tushishi",
-    symbol_img: "/src/Mock/signs/tovushli_signal.gif",
+    symbol_img: "/public/signs/tovushli_signal.gif",
     ans: 3,
   },
   {
@@ -703,7 +703,7 @@ export const roadSymbol = [
     option2: "To’xtab turish ta'qiqlangan",
     option3: "To’siqni chapdan chetlab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/toxtab_turish.gif",
+    symbol_img: "/public/signs/toxtab_turish.gif",
     ans: 2,
   },
   {
@@ -712,7 +712,7 @@ export const roadSymbol = [
     option2: "To’xtash taqiqlangan",
     option3: "To’siqni chapdan chetlab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/toxtash_taqiqlanadi.gif",
+    symbol_img: "/public/signs/toxtash_taqiqlanadi.gif",
     ans: 2,
   },
   {
@@ -721,7 +721,7 @@ export const roadSymbol = [
     option2: "To’siqni chapdan chetlab o’tish",
     option3: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/toxtash_usuli.gif",
+    symbol_img: "/public/signs/toxtash_usuli.gif",
     ans: 3,
   },
   {
@@ -730,7 +730,7 @@ export const roadSymbol = [
     option2: "To’siqni o’ngdan yoki chapdan o'ngdan chetlab o'tish",
     option3: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/traktor.gif",
+    symbol_img: "/public/signs/traktor.gif",
     ans: 1,
   },
   {
@@ -739,7 +739,7 @@ export const roadSymbol = [
     option2: "Traktorlar harakatlanishi taqiqlangan",
     option3: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/tramvay_kesishuv.gif",
+    symbol_img: "/public/signs/tramvay_kesishuv.gif",
     ans: 1,
   },
   {
@@ -748,7 +748,7 @@ export const roadSymbol = [
     option2: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option3: "Tramvay to’xtash joyi",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/tramvay.gif",
+    symbol_img: "/public/signs/tramvay.gif",
     ans: 3,
   },
   {
@@ -757,7 +757,7 @@ export const roadSymbol = [
     option2: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option3: "To’siqni chapdan o'ngdan chetlab o'tish",
     option4: "Transport vositasining turi",
-    symbol_img: "/src/Mock/signs/transport_vositasi_turi.gif",
+    symbol_img: "/public/signs/transport_vositasi_turi.gif",
     ans: 4,
   },
   {
@@ -766,7 +766,7 @@ export const roadSymbol = [
     option2: "Turar-joy dahasining oxiri",
     option3: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/turar_joy_tugash.gif",
+    symbol_img: "/public/signs/turar_joy_tugash.gif",
     ans: 2,
   },
   {
@@ -775,7 +775,7 @@ export const roadSymbol = [
     option2: "Transport vositasini to’xtab turish joyiga qo’yish usuli",
     option3: "Mol haydab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/uy_hayvonlari.gif",
+    symbol_img: "/public/signs/uy_hayvonlari.gif",
     ans: 3,
   },
   {
@@ -784,7 +784,7 @@ export const roadSymbol = [
     option2: "Mol haydab o’tish",
     option3: "To’siqni chapdan o'ngdan chetlab o'tish",
     option4: "Velosipedda harakatlanish ta'qiqlangan",
-    symbol_img: "/src/Mock/signs/velik_taqiqlanadi.gif",
+    symbol_img: "/public/signs/velik_taqiqlanadi.gif",
     ans: 4,
   },
   {
@@ -793,7 +793,7 @@ export const roadSymbol = [
     option2: "To’siqni o’ngdan yoki chapdan o'ngdan chetlab o'tish",
     option3: "Mol haydab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/velosiped.gif",
+    symbol_img: "/public/signs/velosiped.gif",
     ans: 1,
   },
   {
@@ -802,7 +802,7 @@ export const roadSymbol = [
     option2: "Velosiped yo’lkasi bilan kesishuv",
     option3: "Mol haydab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/yer_osti_yoli.gif",
+    symbol_img: "/public/signs/yer_osti_yoli.gif",
     ans: 1,
   },
   {
@@ -811,7 +811,7 @@ export const roadSymbol = [
     option2: "Piyodalarning yer ustidan o’tish joyi",
     option3: "Mol haydab o’tish",
     option4: "To’siqni chapdan o'ngdan chetlab o'tish",
-    symbol_img: "/src/Mock/signs/yer_usti_yoli.gif",
+    symbol_img: "/public/signs/yer_usti_yoli.gif",
     ans: 2,
   },
   {
@@ -820,7 +820,7 @@ export const roadSymbol = [
     option2: "Mol haydab o’tish",
     option3: "Yonlama shamol",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/yonlama_shamol.gif",
+    symbol_img: "/public/signs/yonlama_shamol.gif",
     ans: 3,
   },
   {
@@ -829,7 +829,7 @@ export const roadSymbol = [
     option2: "Yonlama shamol",
     option3: "Piyodalarning yer ustidan o’tish joyi",
     option4: "Yovvoyi hayvonlar",
-    symbol_img: "/src/Mock/signs/yovvoyi_hayvonlar.gif",
+    symbol_img: "/public/signs/yovvoyi_hayvonlar.gif",
     ans: 4,
   },
   {
@@ -838,7 +838,7 @@ export const roadSymbol = [
     option2: "Yonlama shamol",
     option3: "Yuk avtomobillarida quvib o’tish taqiqlangan",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/yuk_avtomobil_quvish_taqiqlanadi.gif",
+    symbol_img: "/public/signs/yuk_avtomobil_quvish_taqiqlanadi.gif",
     ans: 3,
   },
   {
@@ -847,7 +847,7 @@ export const roadSymbol = [
     option2: "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
     option3: "Yuk avtomobillarida quvib o’tish taqiqlangan",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/yuk_avtomobil_quvish_taqiqlanadi_oxiri.gif",
+    symbol_img: "/public/signs/yuk_avtomobil_quvish_taqiqlanadi_oxiri.gif",
     ans: 2,
   },
   {
@@ -856,7 +856,7 @@ export const roadSymbol = [
     option2: "Yuk avtomobillarida quvib o’tish taqiqlangan",
     option3: "Piyodalarning yer ustidan o’tish joyi",
     option4: "Tirbandlik",
-    symbol_img: "/src/Mock/signs/tirbandlik.gif",
+    symbol_img: "/public/signs/tirbandlik.gif",
     ans: 4,
   },
   {
@@ -865,7 +865,7 @@ export const roadSymbol = [
     option2: "Tirbandlik",
     option3: "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/notekis_yol.gif",
+    symbol_img: "/public/signs/notekis_yol.gif",
     ans: 1,
   },
   {
@@ -874,7 +874,7 @@ export const roadSymbol = [
     option2: "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
     option3: "Notekis yo’l",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/barcha.gif",
+    symbol_img: "/public/signs/barcha.gif",
     ans: 1,
   },
   {
@@ -883,7 +883,7 @@ export const roadSymbol = [
     option2: "Tavsiya etilgan tezlik",
     option3: "Notekis yo’l",
     option4: "Piyodalarning yer ustidan o’tish joyi",
-    symbol_img: "/src/Mock/signs/tavsiya_etilgan_tezlik.gif",
+    symbol_img: "/public/signs/tavsiya_etilgan_tezlik.gif",
     ans: 2,
   },
   {
@@ -892,7 +892,7 @@ export const roadSymbol = [
     option2: "Notekis yo’l",
     option3: "Tavsiya etilgan tezlik",
     option4: "Surat va video",
-    symbol_img: "/src/Mock/signs/surat_foto.png",
+    symbol_img: "/public/signs/surat_foto.png",
     ans: 4,
   },
   {
@@ -901,7 +901,7 @@ export const roadSymbol = [
     option2: "Notekis yo’l",
     option3: "Falokatli holatlar uchun kirish yo’li",
     option4: "Tavsiya etilgan tezlik",
-    symbol_img: "/src/Mock/signs/xatar_yol.gif",
+    symbol_img: "/public/signs/xatar_yol.gif",
     ans: 3,
   },
   {
@@ -910,7 +910,7 @@ export const roadSymbol = [
     option2: "Oshxona",
     option3: "Shifoxona",
     option4: "Hojatxona",
-    symbol_img: "/src/Mock/signs/shifoxona.gif",
+    symbol_img: "/public/signs/shifoxona.gif",
     ans: 3,
   },
   {
@@ -919,7 +919,7 @@ export const roadSymbol = [
     option2: "Barcha cheklovlarning oxiri",
     option3: "Tavsiya etilgan tezlik",
     option4: "Yuk avtommobillarida quvib o’tish taqiqlangan hududning oxiri",
-    symbol_img: "/src/Mock/signs/maksimal_tezlik_tugadi.gif",
+    symbol_img: "/public/signs/maksimal_tezlik_tugadi.gif",
     ans: 1,
   },
 ];
