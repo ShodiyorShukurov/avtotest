@@ -64,7 +64,7 @@ const EasyPage = () => {
               vertical
               justify="center"
               align="center"
-              style={{ paddingTop: "80px" }}
+              style={{ paddingTop: "80px", paddingBottom: "37.5px"  }}
             >
               <Image
                 src={question.symbol_img}
@@ -76,40 +76,32 @@ const EasyPage = () => {
               >
                 Bu qanday belgi?
               </Typography.Paragraph>
-              <Button
+              <button
                 className="ans-btn"
-                block
-                ghost
                 ref={option1Ref}
                 onClick={(evt) => checkAns(evt, 1)}
               >
                 {question.option1}
-              </Button>
-              <Button
+              </button>
+              <button
                 className="ans-btn"
-                block
                 style={{
                   margin: "20px",
                 }}
-                ghost
                 ref={option2Ref}
                 onClick={(evt) => checkAns(evt, 2)}
               >
                 {question.option2}
-              </Button>
-              <Button
-                block
+              </button>
+              <button
                 className="ans-btn"
-                ghost
                 ref={option3Ref}
                 onClick={(evt) => checkAns(evt, 3)}
               >
                 {question.option3}
-              </Button>
-              <Button
-                block
+              </button>
+              <button
                 className="ans-btn"
-                ghost
                 style={{
                   margin: "20px",
                 }}
@@ -117,7 +109,7 @@ const EasyPage = () => {
                 onClick={(evt) => checkAns(evt, 4)}
               >
                 {question.option4}
-              </Button>
+              </button>
               <Button type="primary" block onClick={next}>
                 Next
               </Button>

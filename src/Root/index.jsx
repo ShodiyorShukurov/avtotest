@@ -10,18 +10,16 @@ import { Layout } from "antd";
 
 const Root = () => {
   return (
-    <Layout style={{minHeight: "100vh"}}>
+    <Layout style={{ minHeight: "100vh" }}>
       <HeaderPage />
-      <main>
-        <Routes>
-          <Route path="/home" element={<MainPage />} />
-          <Route path="/" element={<Navigate to="/home" />} />
-          <Route path="/easy" element={<EasyPage />} />
-          <Route path="/medium" element={<MediumPage />} />
-          <Route path="/youlost" element={<YouLost />} />
-          <Route path="/youwin" element={<YouWin />} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/home" element={<MainPage />} />
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/easy" element={<EasyPage />} />
+        <Route path="/medium" element={<MediumPage />} />
+        <Route path="/youlost" element={<YouLost />} />
+        <Route path="/youwin" element={<YouWin />} />
+      </Routes>
       <FooterPage />
     </Layout>
   );

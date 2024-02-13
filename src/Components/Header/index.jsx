@@ -11,7 +11,7 @@ const HeaderPage = () => {
   };
 
   return (
-    <Header>
+    <Header style={{  boxShadow: "0px 2px 4px #0000000e"}}>
       <div className="container">
         <Flex justify="space-between" align="center" padding={5}>
           <div className="site-header__start">
