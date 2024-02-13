@@ -51,11 +51,11 @@ const EasyPage = () => {
               level={2}
               style={{ margin: 0, PaddingTop: "30px", color: "white" }}
             >
-              Easy test started
+              Oson sinov boshlandi
             </Typography.Title>
             <Link to="/home">
               <Button type="primary" style={{ marginTop: "20px" }}>
-                Home Page
+                Bosh sahifa
               </Button>
             </Link>
           </Col>
@@ -111,7 +111,7 @@ const EasyPage = () => {
                 {question.option4}
               </button>
               <Button type="primary" block onClick={next}>
-                Next
+                Keyingisi
               </Button>
             </Flex>
           </Col>

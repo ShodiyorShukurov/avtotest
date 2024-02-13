@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
-import useQuestion from "../../Hooks/useQuestions";
 import Typography from "antd/es/typography/Typography";
+import { Button } from "antd";
 import { Content } from "antd/es/layout/layout";
 import "./youwin.scss";
-import { Button } from "antd";
 
 const YouWin = () => {
-  const { falseQuestion } = useQuestion();
   return (
     <Content
       style={{ backgroundColor: "#131629" }}
@@ -38,7 +36,8 @@ const YouWin = () => {
           marginBottom: "20px",
         }}
       >
-        Noto&apos;g&apos;ri javoblar soni : {falseQuestion}
+        Noto&apos;g&apos;ri javoblar soni :{" "}
+        {localStorage.getItem("falseQuestion")}
       </Typography.Title>
       <Link to="/home">
         <Button ghost>Bosh sahifa</Button>

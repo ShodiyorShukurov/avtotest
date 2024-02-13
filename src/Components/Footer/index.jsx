@@ -10,7 +10,7 @@ const FooterPage = () => {
         color: "#FFFFFF",
       }}
     >
-      Copyright &copy; {new Date().getFullYear()}{" "}
+      Mualliflik huquqi &copy; {new Date().getFullYear()}{" "}
       <a className="" href="https://t.me/ShukurovShB" target="blanck">
         Shukurov Shodiyor
       </a>

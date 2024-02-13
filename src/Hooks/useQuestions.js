@@ -50,6 +50,8 @@ const useQuestions = () => {
     if (falseQuestion > 2) {
       navigate("/youlost");
       audioYouLostRef.current.play();
+      localStorage.setItem("score", score);
+      localStorage.setItem("false", falseQuestion);
     }
     if (lock === true) {
       setIndex(++index);
@@ -65,6 +67,7 @@ const useQuestions = () => {
         navigate("/youwin");
         audioYouWinRef.current.play();
         localStorage.setItem("score", score);
+        localStorage.setItem("false", falseQuestion);
       }
     }
   };
