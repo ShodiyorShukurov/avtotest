@@ -6,19 +6,8 @@ import musicYouLost from "../../assets/you lost.ogg";
 import useQuestions from "../../Hooks/useQuestions";
 
 const HardPage = () => {
-  const {
-    option1Ref,
-    option2Ref,
-    option3Ref,
-    option4Ref,
-    next,
-    checkAns,
-    count,
-    question,
-    score,
-    falseQuestion,
-  } = useQuestions();
-
+  const { score, falseQuestion } = useQuestions();
+  
   const audioYouLostRef = React.useRef(new Audio(musicYouLost));
   const [seconds, setSeconds] = React.useState(3 * 60);
   const navigate = useNavigate();
@@ -43,11 +32,22 @@ const HardPage = () => {
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = seconds % 60;
 
+  const {
+    option1Ref,
+    option2Ref,
+    option3Ref,
+    option4Ref,
+    next,
+    checkAns,
+    count,
+    question,
+  } = useQuestions({ minutes });
+
   return (
     <section className="easy-section">
       <div className="container">
         <Row>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Typography.Title
               level={2}
               style={{ margin: 0, PaddingTop: "30px", color: "white" }}
@@ -60,7 +60,7 @@ const HardPage = () => {
               </Button>
             </Link>
           </Col>
-          <Col span={12}>
+          <Col lg={{ span: 12 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"
@@ -116,7 +116,7 @@ const HardPage = () => {
               </Button>
             </Flex>
           </Col>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"

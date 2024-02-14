@@ -7,6 +7,29 @@ import useQuestions from "../../Hooks/useQuestions";
 
 const MediumPage = () => {
   // let randomNumber = Math.floor(Math.random() * 100);
+    const audioYouLostRef = React.useRef(new Audio(musicYouLost));
+    const [seconds, setSeconds] = React.useState(5 * 60);
+    const navigate = useNavigate();
+
+    React.useEffect(() => {
+      const intervalId = setInterval(() => {
+        setSeconds((prevSeconds) => {
+          if (prevSeconds === 0) {
+            clearInterval(intervalId);
+            navigate("/youlost");
+            audioYouLostRef.current.play();
+            localStorage.setItem("score", score);
+            localStorage.setItem("false", falseQuestion);
+          }
+          return prevSeconds - 1;
+        });
+      }, 1000);
+
+      return () => clearInterval(intervalId);
+    }, []);
+
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = seconds % 60;
   const {
     option1Ref,
     option2Ref,
@@ -18,37 +41,15 @@ const MediumPage = () => {
     question,
     score,
     falseQuestion,
-  } = useQuestions();
+  } = useQuestions({minutes});
 
-  const audioYouLostRef = React.useRef(new Audio(musicYouLost));
-  const [seconds, setSeconds] = React.useState(5 * 60);
-  const navigate = useNavigate();
 
-  React.useEffect(() => {
-    const intervalId = setInterval(() => {
-      setSeconds((prevSeconds) => {
-        if (prevSeconds === 0) {
-          clearInterval(intervalId);
-          navigate("/youlost");
-          audioYouLostRef.current.play();
-          localStorage.setItem("score", score);
-          localStorage.setItem("false", falseQuestion);
-        }
-        return prevSeconds - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
-  const minutes = Math.floor(seconds / 60);
-  const remainingSeconds = seconds % 60;
-
+ 
   return (
     <section className="medium-section">
       <div className="container">
         <Row>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Typography.Title
               level={2}
               style={{ margin: 0, PaddingTop: "30px", color: "white" }}
@@ -61,12 +62,12 @@ const MediumPage = () => {
               </Button>
             </Link>
           </Col>
-          <Col span={12}>
+          <Col lg={{ span: 12 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"
               align="center"
-              style={{ paddingTop: "80px" }}
+              style={{ paddingTop: "80px", paddingBottom: "37.5px" }}
             >
               <Image
                 src={question.symbol_img}
@@ -117,7 +118,7 @@ const MediumPage = () => {
               </Button>
             </Flex>
           </Col>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"

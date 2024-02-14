@@ -7,18 +7,6 @@ import useQuestions from "../../Hooks/useQuestions";
 
 const EasyPage = () => {
   // let randomNumber = Math.floor(Math.random() * 100);
-  const {
-    option1Ref,
-    option2Ref,
-    option3Ref,
-    option4Ref,
-    next,
-    checkAns,
-    count,
-    question,
-    score,
-    falseQuestion,
-  } = useQuestions();
 
   const audioYouLostRef = React.useRef(new Audio(musicYouLost));
   const [seconds, setSeconds] = React.useState(8 * 60);
@@ -43,6 +31,19 @@ const EasyPage = () => {
 
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = seconds % 60;
+
+  const {
+    option1Ref,
+    option2Ref,
+    option3Ref,
+    option4Ref,
+    next,
+    checkAns,
+    count,
+    question,
+    score,
+    falseQuestion,
+  } = useQuestions({minutes});
 
   return (
     <section className="easy-section">

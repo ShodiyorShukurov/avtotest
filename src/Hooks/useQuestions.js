@@ -6,7 +6,7 @@ import musicYouWin from "../assets/youwin.ogg";
 import musicYouLost from "../assets/you lost.ogg";
 import { useNavigate } from "react-router-dom";
 
-const useQuestions = () => {
+const useQuestions = ({ minutes }) => {
   let randomNumber = Math.floor(Math.random() * 100);
   let [index, setIndex] = React.useState(
     randomNumber > 80 ? randomNumber - 20 : randomNumber
@@ -47,7 +47,7 @@ const useQuestions = () => {
   };
 
   const next = () => {
-    if (falseQuestion > 2) {
+    if (falseQuestion > 2 || minutes === 0) {
       navigate("/youlost");
       audioYouLostRef.current.play();
       localStorage.setItem("score", score);
