@@ -87,14 +87,13 @@ footer {
   box-shadow: none;
   width: 100%;
   font-size: 14px;
-  height: 32px;
+  min-height: 32px;
   padding: 4px 15px;
   border-radius: 6px;
   outline: none;
   position: relative;
   display: inline-block;
   font-weight: 400;
-  white-space: nowrap;
   text-align: center;
   border: 1px solid #fff;
   cursor: pointer;

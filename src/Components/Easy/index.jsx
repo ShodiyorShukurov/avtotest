@@ -48,7 +48,7 @@ const EasyPage = () => {
     <section className="easy-section">
       <div className="container">
         <Row>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Typography.Title
               level={2}
               style={{ margin: 0, PaddingTop: "30px", color: "white" }}
@@ -61,7 +61,7 @@ const EasyPage = () => {
               </Button>
             </Link>
           </Col>
-          <Col span={12}>
+          <Col lg={{ span: 12 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"
@@ -117,7 +117,7 @@ const EasyPage = () => {
               </Button>
             </Flex>
           </Col>
-          <Col span={6}>
+          <Col lg={{ span: 6 }} xs={{ span: 24 }}>
             <Flex
               vertical
               justify="center"

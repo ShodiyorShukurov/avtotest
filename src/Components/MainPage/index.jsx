@@ -10,12 +10,15 @@ const MainPage = () => {
       style={{ backgroundColor: "#131629" }}
       className="main-page__section"
     >
-      <div className="container">
         <Flex vertical justify="center" align="center">
-          <Title style={{ color: "#fff" }}>
+          <Title className="main-title" style={{ color: "#fff", textAlign:"center" }}>
             Yo&apos;l belgilari imtihoniga xush kelibsiz!
           </Title>
-          <Title level={3} style={{ color: "#fff", marginBottom: '30px' }}>
+          <Title
+            className="main-subtitle"
+            level={3}
+            style={{ color: "#fff", marginBottom: "30px" }}
+          >
             Sinov darajasini tanlang
           </Title>
           <Link to="/easy" className="main-btn">
@@ -38,7 +41,6 @@ const MainPage = () => {
             </Button>
           </Link>
         </Flex>
-      </div>
     </Content>
   );
 };
