@@ -1,36 +1,10 @@
 import React from "react";
 import { Col, Row, Typography, Button, Image, Flex } from "antd";
-import { Link, useNavigate } from "react-router-dom";
-// import "./easy.scss";
-import musicYouLost from "../../assets/you lost.ogg";
+import { Link } from "react-router-dom";
 import useQuestions from "../../Hooks/useQuestions";
 
 const HardPage = () => {
-  const { score, falseQuestion } = useQuestions();
-  
-  const audioYouLostRef = React.useRef(new Audio(musicYouLost));
-  const [seconds, setSeconds] = React.useState(3 * 60);
-  const navigate = useNavigate();
-
-  React.useEffect(() => {
-    const intervalId = setInterval(() => {
-      setSeconds((prevSeconds) => {
-        if (prevSeconds === 0) {
-          clearInterval(intervalId);
-          navigate("/youlost");
-          audioYouLostRef.current.play();
-          localStorage.setItem("score", score);
-          localStorage.setItem("false", falseQuestion);
-        }
-        return prevSeconds - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
-  const minutes = Math.floor(seconds / 60);
-  const remainingSeconds = seconds % 60;
+  const [seconds, setSeconds] = React.useState(3*60);
 
   const {
     option1Ref,
@@ -41,7 +15,11 @@ const HardPage = () => {
     checkAns,
     count,
     question,
-  } = useQuestions({ minutes });
+    score,
+    falseQuestion,
+    minutes,
+    remainingSeconds,
+  } = useQuestions({ seconds, setSeconds });
 
   return (
     <section className="easy-section">

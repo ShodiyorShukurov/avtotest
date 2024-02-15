@@ -1,35 +1,12 @@
 import React from "react";
 import { Col, Row, Typography, Button, Image, Flex } from "antd";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./medium.scss";
-import musicYouLost from "../../assets/you lost.ogg";
+
 import useQuestions from "../../Hooks/useQuestions";
 
 const MediumPage = () => {
-  // let randomNumber = Math.floor(Math.random() * 100);
-    const audioYouLostRef = React.useRef(new Audio(musicYouLost));
-    const [seconds, setSeconds] = React.useState(5 * 60);
-    const navigate = useNavigate();
-
-    React.useEffect(() => {
-      const intervalId = setInterval(() => {
-        setSeconds((prevSeconds) => {
-          if (prevSeconds === 0) {
-            clearInterval(intervalId);
-            navigate("/youlost");
-            audioYouLostRef.current.play();
-            localStorage.setItem("score", score);
-            localStorage.setItem("false", falseQuestion);
-          }
-          return prevSeconds - 1;
-        });
-      }, 1000);
-
-      return () => clearInterval(intervalId);
-    }, []);
-
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = seconds % 60;
+  const [seconds, setSeconds] = React.useState(5 * 60);
   const {
     option1Ref,
     option2Ref,
@@ -41,10 +18,10 @@ const MediumPage = () => {
     question,
     score,
     falseQuestion,
-  } = useQuestions({minutes});
+    minutes,
+    remainingSeconds,
+  } = useQuestions({ seconds, setSeconds });
 
-
- 
   return (
     <section className="medium-section">
       <div className="container">

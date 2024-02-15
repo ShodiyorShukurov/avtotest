@@ -6,7 +6,7 @@ import musicYouWin from "../assets/youwin.ogg";
 import musicYouLost from "../assets/you lost.ogg";
 import { useNavigate } from "react-router-dom";
 
-const useQuestions = ({ minutes }) => {
+const useQuestions = ({ seconds, setSeconds }) => {
   let randomNumber = Math.floor(Math.random() * 100);
   let [index, setIndex] = React.useState(
     randomNumber > 80 ? randomNumber - 20 : randomNumber
@@ -29,6 +29,9 @@ const useQuestions = ({ minutes }) => {
   let option_array = [option1Ref, option2Ref, option3Ref, option4Ref];
   const navigate = useNavigate();
 
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+
   const checkAns = (evt, ans) => {
     if (lock === false) {
       if (question.ans === ans) {
@@ -46,12 +49,38 @@ const useQuestions = ({ minutes }) => {
     }
   };
 
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setSeconds((prevSeconds) => {
+        if (prevSeconds <= 0) {
+          if (score >= 18) {
+            audioYouWinRef.current.play();
+            navigate("/youwin");
+            clearInterval(intervalId);
+            localStorage.setItem("score", score);
+            localStorage.setItem("false", falseQuestion);
+          } else {
+            audioYouLostRef.current.play();
+            clearInterval(intervalId);
+            navigate("/youlost");
+            localStorage.setItem("score", score);
+            localStorage.setItem("false", falseQuestion);
+          }
+        }
+        return prevSeconds - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, [score, falseQuestion, setSeconds]);
+
   const next = () => {
-    if (falseQuestion > 2 || minutes === 0) {
+    if (falseQuestion > 2) {
       navigate("/youlost");
       audioYouLostRef.current.play();
       localStorage.setItem("score", score);
       localStorage.setItem("false", falseQuestion);
+      console.log("Hello!");
     }
     if (lock === true) {
       setIndex(++index);
@@ -85,6 +114,8 @@ const useQuestions = ({ minutes }) => {
     setQuestion,
     score,
     falseQuestion,
+    minutes,
+    remainingSeconds,
   };
 };
 
